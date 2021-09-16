@@ -7,9 +7,7 @@ import userEvent from "@testing-library/user-event"
 import "whatwg-fetch" // polyfills fetch 
 import { setupServer } from "msw/node"
 import { rest } from "msw"
-//import {status} from "msw/lib/types/context";
 
-import { getQueriesForElement } from "@testing-library/dom"
 
 describe("Sign Up Page", () => {
     describe("Layout", () => {
